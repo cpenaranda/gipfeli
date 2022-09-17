@@ -34,7 +34,7 @@ class Gipfeli : public util::compression::Compressor {
   virtual bool UncompressStream(
       Source* source, Sink* sink);
 
- private:
+//  private:
   class CompressorState {
    public:
     CompressorState() : lz77_(NULL), lz77_input_size_(0) {}
